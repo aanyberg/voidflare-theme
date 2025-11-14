@@ -1,0 +1,21 @@
+{
+  "name": "Voidflare",
+  "displayName": "Voidflare",
+  "description": "A dark VS Code theme with a void aesthetic",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.106.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Voidflare",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Voidflare-color-theme.json"
+      }
+    ]
+  }
+}
