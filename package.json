@@ -1,21 +1,31 @@
 {
-  "name": "Voidflare",
-  "displayName": "Voidflare",
-  "description": "A dark VS Code theme with a void aesthetic",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.106.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Voidflare",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Voidflare-color-theme.json"
-      }
-    ]
-  }
+    "name": "voidflare-theme",
+    "displayName": "Voidflare",
+    "description": "A collection of dark themes for VSCode inspired by the aesthetics of obsidian and deep space.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.106.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Voidflare Obsidian",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Voidflare-obsidian.json"
+            },
+            {
+                "label": "Voidflare Abyss",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Voidflare-abyss.json"
+            },
+            {
+                "label": "Voidflare Midnight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Voidflare-midnight.json"
+            }
+        ]
+    }
 }
